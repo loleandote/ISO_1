@@ -53,7 +53,7 @@ public class JFrameLogin extends JFrame {
 	 * Create the frame.
 	 */
 	public JFrameLogin() {
-		setTitle("Práctica 1 - Ingeniería del Software...es útil?");
+		setTitle("Practica 1 - Ingenieria del Software...es util?");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 438, 385);
 		contentPane = new JPanel();
@@ -112,7 +112,7 @@ public class JFrameLogin extends JFrame {
 
 		textPaneEstado = new JTextPane();
 		textPaneEstado.setToolTipText(
-				"Panel para mostrar el restultado de la comprobación de login o las excepciones lanzadas");
+				"Panel para mostrar el restultado de la comprobaciï¿½n de login o las excepciones lanzadas");
 		textPaneEstado.setEditable(false);
 		textPaneEstado.setBounds(6, 235, 406, 102);
 		contentPane.add(textPaneEstado);
@@ -157,6 +157,7 @@ public class JFrameLogin extends JFrame {
 		 */
 	}
 
+	//Fuera
 	public static void crearBaseDatosSinoExiste() {
 		Connection conn = null;
 		PreparedStatement pstmt;
