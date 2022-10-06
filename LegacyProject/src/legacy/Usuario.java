@@ -70,11 +70,12 @@ public class Usuario {
 		return res;
 	}
 	
+
 	public int update () throws Exception{
 		//por ahora no nos ha hecho falta actualizar nada...
 		return 0;
 	}
 	
-
+	// Esto a constantes
 	private String DBPORT="3308";
 }

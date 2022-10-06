@@ -1,7 +1,7 @@
 package legacy;
 
 public class GestorUsuario {
-	
+	//Esto nada
 	public static boolean autenticar(String login, String password) throws Exception{
 		boolean autenticado = false;
 		
@@ -10,6 +10,7 @@ public class GestorUsuario {
 		return autenticado;
 	}
 	
+
 	public static boolean nuevoUsuario(String login, String password) throws Exception{
 		boolean insertado = false;
 		
