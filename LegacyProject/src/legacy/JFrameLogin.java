@@ -8,6 +8,9 @@ import javax.swing.border.EmptyBorder;
 
 import org.apache.derby.jdbc.EmbeddedDriver;
 
+import legacy.Modelo.Usuario;
+import legacy.Persistencia.BDConstantes;
+
 import javax.swing.JLabel;
 
 import javax.swing.JTextField;

@@ -7,6 +7,8 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
+import legacy.Modelo.Usuario;
+
 import java.awt.FlowLayout;
 
 import javax.swing.JLabel;
@@ -91,7 +93,7 @@ public class JFrameNuevoUsuario extends JFrame {
 					}
 					
 				} catch (Exception e) {
-					textPane.setText("No se ha podido crear  el usuario.¿Tal vez ya existe?");
+					textPane.setText("No se ha podido crear  el usuario.ï¿½Tal vez ya existe?");
 				}
 				
 			}
